@@ -1,0 +1,295 @@
+@charset "UTF-8"; /*------------------------------------- font-family -----------------------------------------------*/
+
+@font-face {
+    font-family: iransans;
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/iransans/iransansWeb(FaNum)_Bold.eot');
+    src: url('../fonts/iransans/iransansWeb(FaNum)_Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/iransans/iransansWeb(FaNum)_Bold.woff2') format('woff2'), url('../fonts/iransans/iransansWeb(FaNum)_Bold.woff') format('woff'), url('../fonts/iransans/iransansWeb(FaNum)_Bold.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: iransans;
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/iransans/iransansWeb(FaNum)_Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/iransans/iransansWeb(FaNum)_Medium.woff2') format('woff2'), url('../fonts/iransans/iransansWeb(FaNum)_Medium.woff') format('woff'), url('../fonts/iransans/iransansWeb(FaNum)_Medium.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: iransans;
+    font-style: normal;
+    src: url('../fonts/iransans/iransans(FaNum)_Medium.eot');
+    font-weight: 300;
+    src: url('../fonts/iransans/iransansWeb(FaNum)_Light.eot');
+    src: url('../fonts/iransans/iransansWeb(FaNum)_Light.eot?#iefix') format('embedded-opentype'), url('../fonts/iransans/iransansWeb(FaNum)_Light.woff2') format('woff2'), url('../fonts/iransans/iransansWeb(FaNum)_Light.woff') format('woff'), url('../fonts/iransans/iransansWeb(FaNum)_Light.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: iransans;
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/iransans/iransansWeb(FaNum)_UltraLight.eot');
+    src: url('../fonts/iransans/iransansWeb(FaNum)_UltraLight.eot?#iefix') format('embedded-opentype'), url('../fonts/iransans/iransansWeb(FaNum)_UltraLight.woff2') format('woff2'), url('../fonts/iransans/iransansWeb(FaNum)_UltraLight.woff') format('woff'), url('../fonts/iransans/iransansWeb(FaNum)_UltraLight.ttf') format('truetype')
+}
+
+
+@font-face {
+    font-family: iransans;
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/iransans/iransansWeb(FaNum).eot');
+    src: url('../fonts/iransans/iransansWeb(FaNum).eot?#iefix') format('embedded-opentype'), url('../fonts/iransans/iransansWeb(FaNum).woff2') format('woff2'), url('../fonts/iransans/iransansWeb(FaNum).woff') format('woff'), url('../fonts/iransans/iransansWeb(FaNum).ttf') format('truetype')
+}
+
+@font-face {
+    font-family: Yekan-Bakh;
+    font-style: normal;
+    src: url('../fonts/Yekan-Bakh/Yekan Bakh EN 01 Hairline.ttf');
+    src: url('../fonts/Yekan-Bakh/Yekan Bakh EN 01 Hairline.ttf?#iefix') format('embedded-opentype'), url('../fonts/Yekan-Bakh/Yekan Bakh EN 01 Hairline.ttf') format('woff2'), url('../fonts/Yekan-Bakh/Yekan Bakh EN 01 Hairline.ttf') format('woff'), url('../fonts/Yekan-Bakh/Yekan Bakh EN 01 Hairline.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: Google-Font;
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/fonts.googleapis.com/Google-Font.woff2');
+    src: url('../fonts/fonts.googleapis.com/Google-Font.woff2?#iefix') format('embedded-opentype'), url('../fonts/fonts.googleapis.com/Google-Font.woff2') format('woff2'), url('../fonts/fonts.googleapis.com/Google-Font.woff2') format('woff'), url('../fonts/fonts.googleapis.com/Google-Font.woff2') format('truetype')
+}
+
+
+body {
+    font-family: iransans, sans-serif;
+
+    text-align: right;
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+        direction: rtl;
+    }
+}
+
+.section-title {
+    font-family: Google-Font, sans-serif;
+    color: #ffe6a7;
+    text-shadow: 0 0 13px #6f1d1b;
+    text-transform: capitalize;
+
+}
+
+@media only screen and (min-width: 992px) {
+    body.dsn-line-style .site-header {
+        direction: ltr;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .reverse-right-now {
+        transform: rotate(0deg) !important;
+    }
+}
+
+.footer .column-right {
+    text-align: right;
+    margin-right: 80px;
+}
+
+div.img-container.h-100.before-z-index {
+    -moz-border-radius-topright: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    -moz-border-radius-bottomright: 20px;
+}
+
+div.box-info.h-100.box-padding.background-section {
+    -moz-border-radius-topleft: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    -moz-border-radius-bottomleft: 20px;
+}
+
+
+/*----------------------------------- Effective BTN -----------------------------------*/
+
+
+.effective-btn {
+    position: relative;
+    display: inline-block;
+    padding: 11px 30px;
+    margin: 40px 0;
+    color: #03e9f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+
+}
+
+.effective-btn:hover {
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 200px #03e9f4;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+.effective-btn:nth-child(1) {
+    filter: hue-rotate(215deg);
+}
+
+.effective-btn:nth-child(2) {
+    filter: hue-rotate(186deg);
+}
+
+div.btns.mt-45.d-flex.align-items-center > a.effective-btn {
+    filter: hue-rotate(177deg);
+}
+
+.effective-btn span {
+    position: absolute;
+    display: block;
+}
+
+.effective-btn span:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #03e9f4);
+    animation: animate1 1s linear infinite;
+}
+
+@keyframes animate1 {
+    0% {
+        left: -100%;
+    }
+
+    50%,
+    100% {
+        left: 100%;
+    }
+}
+
+.effective-btn span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #03e9f4);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+
+@keyframes animate2 {
+    0% {
+        top: -100%;
+    }
+
+    50%,
+    100% {
+        top: 100%;
+    }
+}
+
+.effective-btn span:nth-child(3) {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #03e9f4);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.50s;
+}
+
+@keyframes animate3 {
+    0% {
+        right: -100%;
+    }
+
+    50%,
+    100% {
+        right: 100%;
+    }
+}
+
+
+.effective-btn span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #03e9f4);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+
+@keyframes animate4 {
+    0% {
+        bottom: -100%;
+    }
+
+    50%,
+    100% {
+        bottom: 100%;
+    }
+}
+
+
+/*----------------------------------- Effective BTN -----------------------------------*/
+
+
+.next-container, .prev-container {
+    transform: rotate(180deg);
+}
+
+.icon, .service-description {
+    text-align: center;
+}
+
+div.metas.d-inline-block.mb-20 > span,h2.Our-Branches, .work-section .swiper-slide .box-content .sec-title, .work-section .work-item .box-content .sec-title, div.services-content div.service-description > h4.title-block.mb-15, .main-slider .dsn-slider-content .slide-content.dsn-active .title {
+    font-family: Yekan-Bakh, sans-serif;
+    text-shadow: 0 0 13px #6f1d1b;
+}
+
+div.entry-date > span {
+    font-family: Google-Font, sans-serif;
+    text-shadow: 0 0 13px #6f1d1b;
+    letter-spacing: 3px;
+    font-size: initial;
+}
+
+div.right-now-arrengment {
+    justify-content: space-between;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h4.sm-title-block {
+    text-shadow: 0 0 13px #6f1d1b;
+
+}
+
+.blog-item .box-content .link-vist {
+    flex-direction: row-reverse;
+}
+
+.blog-item .box-img img {
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.service-description > p, div.box-content-body > p {
+    text-align: justify;
+}
+
+.testimonials .testimonial-nav .swiper-slide .box-text {
+    text-align: right;
+}
+
